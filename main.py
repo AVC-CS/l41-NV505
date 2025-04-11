@@ -3,7 +3,7 @@ def main():
     N = int(input('Enter the number N: '))
     result = []
     start = 0
-    num = 0
+    num = 1
     
     while (start < N):
         start += 1
