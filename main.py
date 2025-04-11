@@ -1,18 +1,14 @@
 def main():
 
     N = int(input('Enter the number N: '))
-    result = []
-    start = 0
+    result = [] #list
+    start = 0 #counting/exponent variable
     
-    while (start <= N):
-        result.append(2 ** start)
+    while (start <= N): #while loop to create list
+        result.append(2 ** start) 
         start += 1
-        
-    
+         
     print(result)
-        
-        
-    
     ########################################
     # Do not delete the return statement
     ########################################
