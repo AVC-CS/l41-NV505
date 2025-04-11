@@ -5,7 +5,7 @@ def main():
     start = 0
     num = 1
     
-    while (start < N):
+    while (start <= N):
         start += 1
         num = num*2
         result.append(num)
