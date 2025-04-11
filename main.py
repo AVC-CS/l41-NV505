@@ -2,13 +2,19 @@ def main():
 
     N = int(input('Enter the number N: '))
     result = []
-
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
+    start = 0
+    num = 0
+    
+    while (start < N):
+        start += 1
+        num = num*2
+        result.append(num)
+        
+    
+    print(result)
+        
+        
+    
     ########################################
     # Do not delete the return statement
     ########################################
